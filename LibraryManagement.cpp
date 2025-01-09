@@ -82,7 +82,7 @@ void retBk() {
         return;
     }
 
-    int late = (date - chkDates[bkNum - 1]) - 14; // 14-day loan period
+    int late = (date - chkDates[bkNum - 1]) - 14; // 14-day lend
     if (late > 0) {
         cout << "Late return. Fine: $" << late * 1 << ".\n";
     } else {
